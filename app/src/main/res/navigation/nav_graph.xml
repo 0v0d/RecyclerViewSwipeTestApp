@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/nav_graph"
+        app:startDestination="@id/recyclerViewFragment">
+
+    <fragment
+            android:id="@+id/recyclerViewFragment"
+            android:name="com.example.recyclerviewswipetestapp.RecyclerViewFragment"
+            android:label="RecyclerViewFragment">
+        <action
+                android:id="@+id/action_recyclerViewFragment_to_keyWordFragment"
+                app:destination="@id/keyWordFragment" />
+    </fragment>
+    <fragment
+            android:id="@+id/keyWordFragment"
+            android:name="com.example.recyclerviewswipetestapp.KeyWordFragment"
+            android:label="KeyWordFragment">
+        <argument
+                android:name="keyword"
+                app:argType="com.example.recyclerviewswipetestapp.Fruit" />
+    </fragment>
+</navigation>

@@ -1,0 +1,5 @@
+<resources>
+    <style name="Base.Theme.RecyclerViewSwipeTestApp" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+    <style name="Theme.RecyclerViewSwipeTestApp" parent="Base.Theme.RecyclerViewSwipeTestApp" />
+</resources>
